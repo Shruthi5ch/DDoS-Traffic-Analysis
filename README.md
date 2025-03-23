@@ -4,7 +4,7 @@
 This project analyzes a SYN flood **DDoS attack** using **Wireshark** and **Kali Linux**, detecting anomalies in network traffic and proposing mitigation strategies.  
 
 ## Project Files  
-📄 **Full Report:** [DDoS_Attack_Detection_Report.pdf](./DDoS_Attack_Detection_Report.pdf)  
+📄 **Full Report:** DDoS_Attack_Detection_Report.docx
 🖼 **Screenshots:** Wireshark filters & TCP statistics  
 📊 **Findings:** Graphs & attack analysis  
 
