@@ -1,10 +1,10 @@
-# DDoS Attack Detection Using Network Traffic Analysis
+# DoS Attack Detection Using Network Traffic Analysis
 
 ## Overview  
 This project analyzes a SYN flood **DDoS attack** using **Wireshark** and **Kali Linux**, detecting anomalies in network traffic and proposing mitigation strategies.  
 
 ## Project Files  
-📄 **Full Report:** DDoS_Attack_Detection_Report.docx
+📄 **Full Report:** DoS_Attack_Detection_Report.docx
 🖼 **Screenshots:** Wireshark filters & TCP statistics  
 📊 **Findings:** Graphs & attack analysis  
 
